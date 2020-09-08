@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'touro.snake'
+version '1.0-SNAPSHOT'
+
+// Latest version of Java
+sourceCompatibility = 14
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    testImplementation 'org.mockito:mockito-core:3.5.5'
+}
